@@ -1,8 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import Sidebar from './component/Sidebar'
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function App(){
-    return(<h1>Hi</h1>);
-}
-
-render(<App />, document.getElementById('root'));
+render(<Sidebar />, document.getElementById('root'));
